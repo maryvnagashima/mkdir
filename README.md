@@ -1,25 +1,20 @@
-## 🔍 PRINCIPAIS INSIGHTS
+# Análise de Saturação de Canais e Otimização de Budget
 
-### 1. Ponto de Saturação por Canal
-- **Google Search**: Satura em ~R$ 120k/mês (ROI marginal < 1)
-- **Meta Ads**: Mais elástico, satura em ~R$ 95k/mês
-- **TikTok**: Baixo volume, mas alta eficiência até R$ 40k/mês
+Projeto por **Marina Vieira Nagashima**  
+Dezembro 2024 | Estratégia de Marketing + Análise de Dados
 
-### 2. Alocação Otimizada (Budget R$ 500k)
-- Google Search: 42% (R$ 210k) - Canal âncora
-- Meta Ads: 28% (R$ 140k) - Escala média
-- Display: 18% (R$ 90k) - Complementar
-- TikTok: 8% (R$ 40k) - Experimental
-- LinkedIn: 4% (R$ 20k) - Nicho
+Este projeto simula a saturação de canais de mídia paga (Google, Meta, TikTok etc.) e recomenda a melhor alocação de orçamento para maximizar o retorno (ROAS), considerando que cada canal tem retornos decrescentes após certo ponto.
 
-### 3. Impacto no Negócio
-- Redistribuir budget conforme saturação pode aumentar conversões em **23%**
-- Investir além da saturação desperdiça **R$ 80k/mês** em ROI <1
+Ideal para decisões estratégicas de marketing, growth e operações.
 
-### 4. Recomendações Estratégicas
-1. **Imediato:** Realocar R$ 30k de LinkedIn para TikTok
-2. **Curto prazo:** Testar novos criativos em Meta (deslocar curva)
-3. **Longo prazo:** Explorar novos canais quando Google saturar
-```
+## 📊 Metodologia
 
----
+- **Curva S (sigmoide)**: modela o impacto do investimento sobre conversões
+- **ROI marginal**: mostra quanto cada R$1 adicional gera
+- **Otimização matemática**: redistribui orçamento para maximizar resultados
+- **Dados simulados**: baseados em padrões reais observados em campanhas com altos volumes
+
+## 🖼️ Resultados
+
+![Curvas de Saturação](curvas_saturacao.png)
+
